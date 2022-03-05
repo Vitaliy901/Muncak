@@ -2,6 +2,10 @@ html    {
     font-size: 20px;
 	font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
 }
+h2 {
+	font-size: 1.80rem;
+	color: #263238;
+}
 a {
 	text-decoration: none;
 }
@@ -18,9 +22,8 @@ header {
 	background-image: url(../img/Muncak\ Landing\ circle\ pink.png), url(../img/Muncak\ circle\ blue.png),
 	url(../img/Muncak\ Landing\ Page_ILLUSTRATION.png), url(../img/Muncak\ Landing\ Page_Shape\ 24.png),url(../img/Muncak\ Landing\ circle\ pinkR.png);
 	background-repeat: no-repeat;
-	background-position: bottom right 5%, left 44% top 60%, right  top, left -10% bottom, left 3% top 28%;
-	min-height: 100vh;
-	padding-bottom: 3.5rem;
+	background-position: bottom 8% right 5%, left 44% top 60%, right  top, left -13% bottom, left 1% top 35%;
+	padding-bottom: 16rem;
 }
 .header-wrapper {
 	max-width: 1400px;
@@ -97,7 +100,11 @@ header {
 	transform: scale(0.9);
 	box-shadow: 0rem 1.1rem 0.6rem #8e9aa7;
 }
-
+/* ======================hiking trail================= */
+.hiking-trail {
+	max-width: 1172px;
+	margin: 0 auto;
+}
 /* ============================================== */
 @media (min-width: 200px) and (max-width: 600px) {
     /* Свойства применяются в пределах от меньшего к большему. */
