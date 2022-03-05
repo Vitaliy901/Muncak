@@ -5,6 +5,9 @@ html    {
 a {
 	text-decoration: none;
 }
+a:visited {
+	color: #1c2056;
+}
 ::selection {
     background-color: black;
     color: white;
@@ -14,21 +17,50 @@ a {
 .header-wrapper {
 	max-width: 1400px;
 	margin: 0 auto;
+	padding-top: 4.25rem;
 }
 .header-top {
 	display: flex;
 	justify-content: space-between;
-}
-.header-nav > ul{
-	display: flex;
+	margin-bottom: 8rem;
 }
 
+.logo {
+	display: flex;
+	font-size: 2rem;
+	font-weight: bold;
+	align-items: flex-end;
+}
 .logo img {
 	width: 10rem;
 	height: 5;
 }
+.logo  div::first-letter{
+	color: #2870db;
+}
 
-
+.header-nav {
+	align-self: flex-end;
+}
+.header-nav > ul{
+	display: flex;
+	gap: 1.5rem;
+}
+.header-nav a {
+	display: block;
+	padding: 0.5rem 1.75rem;
+	border-radius: 1rem;
+	background-color: #2870db00;
+	transition: 0.7s;
+}
+.header-nav a:hover {
+	background-color: #2870db;
+}
+/* =====================middle===================== */
+.header-middle {
+	max-width: 400px;
+	padding-left: 6rem;
+}
 
 
 
