@@ -15,9 +15,12 @@ a:visited {
 }
 /* ======================header==================== */
 header {
-	background-image: url(../img/Muncak\ Landing\ circle\ pink.png), url(../img/Muncak\ Landing\ Page_ILLUSTRATION.png);
+	background-image: url(../img/Muncak\ Landing\ circle\ pink.png), url(../img/Muncak\ circle\ blue.png),
+	url(../img/Muncak\ Landing\ Page_ILLUSTRATION.png), url(../img/Muncak\ Landing\ Page_Shape\ 24.png),url(../img/Muncak\ Landing\ circle\ pinkR.png);
 	background-repeat: no-repeat;
-	background-position: 0 0, right 0px top 0px;
+	background-position: bottom right 5%, left 44% top 60%, right  top, left -10% bottom, left 3% top 28%;
+	min-height: 100vh;
+	padding-bottom: 3.5rem;
 }
 .header-wrapper {
 	max-width: 1400px;
