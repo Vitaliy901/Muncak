@@ -12,6 +12,7 @@ h3 {
 	color: #263238;
 	font-weight: bold;
 	margin-bottom: 3rem;
+	line-height: 2.5rem;
 }
 a {
 	text-decoration: none;
@@ -116,6 +117,13 @@ main {
 	max-width: 1172px;
 	margin: 0 auto;
 }
+.hiking-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.hiking-wrapper section:nth-child(2) {
+	align-self: flex-end;
+}
 .hiking-trail section {
 	box-sizing: border-box;
 	max-width: 550px;
@@ -128,6 +136,7 @@ main {
 	margin: 0 auto 15rem auto;
 	max-width: 650px;
 	text-align: center;
+	line-height: 2.5rem;
 }
 .hiking-trail p {
 	line-height: 1.75rem;
@@ -155,6 +164,48 @@ main {
 .hiking-footer a:active {
 	transform: scale(0.9);
 	box-shadow: 0rem 1.1rem 0.6rem #8e9aa7;
+}
+
+/* ===================== hiking icons ==================*/
+.hiking-wrapper section {
+	position: relative;
+	box-shadow: 0 1.1rem 1rem 0.6rem#e5ecf48c;
+}
+.hiking-wrapper > section:first-child::before {
+	content: "";
+	position: absolute;
+	top: -9rem;
+	left: 40%;
+	height: 7rem;
+	width: 8rem;
+	background-image: url(../img/Muncak\ Landing\ Advocate.png), url(../img/Muncak\ Landing\ AdvocateShadow.png);
+	background-repeat: no-repeat;
+	background-position: 0 0, 0.4rem 0;
+	background-size: 95%;
+}
+.hiking-wrapper > section:nth-child(2)::before {
+	content: "";
+	position: absolute;
+	top: -10rem;
+	left: 40%;
+	height: 8rem;
+	width: 6rem;
+	background-image: url(../img/Muncak\ Landing\ Volunteer.png), url(../img/Muncak\ Landing\ VolunteerShadow.png);
+	background-repeat: no-repeat;
+	background-position: 0 0, 0.4rem 0;
+	background-size: 95%;
+}
+.hiking-footer > section::before {
+	content: "";
+	position: absolute;
+	top: -8rem;
+	left: 40%;
+	height: 7rem;
+	width: 8rem;
+	background-image: url(../img/Muncak\ Landing\ explore.png), url(../img/Muncak\ Landing\ exploreShadow.png);
+	background-repeat: no-repeat;
+	background-position: 0 0, 0.4rem 0;
+	background-size: 95%;
 }
 /* ============================================== */
 @media (min-width: 200px) and (max-width: 600px) {
