@@ -5,6 +5,13 @@ html    {
 h2 {
 	font-size: 1.80rem;
 	color: #263238;
+	font-weight: bold;
+}
+h3 {
+	font-size: 1.2rem;
+	color: #263238;
+	font-weight: bold;
+	margin-bottom: 3rem;
 }
 a {
 	text-decoration: none;
@@ -22,8 +29,9 @@ header {
 	background-image: url(../img/Muncak\ Landing\ circle\ pink.png), url(../img/Muncak\ circle\ blue.png),
 	url(../img/Muncak\ Landing\ Page_ILLUSTRATION.png), url(../img/Muncak\ Landing\ Page_Shape\ 24.png),url(../img/Muncak\ Landing\ circle\ pinkR.png);
 	background-repeat: no-repeat;
-	background-position: bottom 8% right 5%, left 44% top 60%, right  top, left -13% bottom, left 1% top 35%;
-	padding-bottom: 16rem;
+	background-position: bottom 15% right 5%, left 44% top 52%, right  top, left -13% bottom, left 1% top 40%;
+	padding-bottom: 20rem;
+	background-color: #fbfcfc;
 }
 .header-wrapper {
 	max-width: 1400px;
@@ -101,9 +109,52 @@ header {
 	box-shadow: 0rem 1.1rem 0.6rem #8e9aa7;
 }
 /* ======================hiking trail================= */
+main {
+	background-color: #fbfcfc;
+}
 .hiking-trail {
 	max-width: 1172px;
 	margin: 0 auto;
+}
+.hiking-trail section {
+	box-sizing: border-box;
+	max-width: 550px;
+	padding: 3.75rem 5rem 3.75rem 3.5rem;
+	background-color: white;
+	border-radius: 1rem;
+	margin-bottom: 3.25rem;
+}
+.hiking-trail h2 {
+	margin: 0 auto 15rem auto;
+	max-width: 650px;
+	text-align: center;
+}
+.hiking-trail p {
+	line-height: 1.75rem;
+}
+.hiking-footer {
+	display: flex;
+}
+.hiking-footer div:last-child {
+	flex: 1 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hiking-footer a {
+	display: inline-block;
+	padding: 1.5rem 3.25rem;
+	background-color: #2870db;
+	border-radius: 1rem;
+	color: #fbfcfc;
+	font-weight: 600;
+	box-shadow: 0rem 2rem 1rem #d1deec;
+	transform: scale(1);
+	transition: 0.4s;
+}
+.hiking-footer a:active {
+	transform: scale(0.9);
+	box-shadow: 0rem 1.1rem 0.6rem #8e9aa7;
 }
 /* ============================================== */
 @media (min-width: 200px) and (max-width: 600px) {
