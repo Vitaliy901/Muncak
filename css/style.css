@@ -14,6 +14,11 @@ a:visited {
     text-shadow: 1px 1px  rgba(24, 209, 255, 0.712);
 }
 /* ======================header==================== */
+header {
+	background-image: url(../img/Muncak\ Landing\ circle\ pink.png), url(../img/Muncak\ Landing\ Page_ILLUSTRATION.png);
+	background-repeat: no-repeat;
+	background-position: 0 0, right 0px top 0px;
+}
 .header-wrapper {
 	max-width: 1400px;
 	margin: 0 auto;
@@ -50,20 +55,45 @@ a:visited {
 	display: block;
 	padding: 0.5rem 1.75rem;
 	border-radius: 1rem;
-	background-color: #2870db00;
 	transition: 0.7s;
+	color: #fbfcfc;
 }
 .header-nav a:hover {
-	background-color: #2870db;
+	background-color: #fbfcfc;
+	color: #1c2056;
 }
 /* =====================middle===================== */
 .header-middle {
 	max-width: 400px;
 	padding-left: 6rem;
 }
-
-
-
+.header-middle h1 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #1c2056;
+	margin-bottom: 3rem;
+}
+.header-middle p {
+	font-size: 0.8rem;
+	color: #756d91;
+	line-height: 2rem;
+	margin-bottom: 5.5rem;
+}
+.header-middle a {
+	display: inline-block;
+	padding: 1.5rem 3.25rem;
+	background-color: #2870db;
+	border-radius: 1rem;
+	color: #fbfcfc;
+	font-weight: 600;
+	box-shadow: 0rem 2rem 1rem #d1deec;
+	transform: scale(1);
+	transition: 0.4s;
+}
+.header-middle a:active {
+	transform: scale(0.9);
+	box-shadow: 0rem 1.1rem 0.6rem #8e9aa7;
+}
 
 /* ============================================== */
 @media (min-width: 200px) and (max-width: 600px) {
