@@ -114,7 +114,7 @@ main {
 	background-image: url(../img/Muncak\ circle\ blue.png),  url(../img/Muncak\ Landing\ circle\ pinkLittle.png), 
 	url(../img/Muncak\ Landing\ spotBigR.png), url(../img/Muncak\ Landing\ spotLeft.png),url(../img/Muncak\ Landing\ circle\ pinkR.png);
 	background-repeat: no-repeat;
-	background-position: right -2% top 15%, 48% 36%, right -45% bottom 10%, 136% -73%, left 10%  bottom 10%;
+	background-position: right -2% top 15%, 48% 34%, right -45% bottom 10%, 145% -120%, left 10%  bottom 15%;
 	background-color: #fbfcfc;
 }
 .hiking-trail {
@@ -216,12 +216,31 @@ main {
 	max-width: 1172px;
 	margin: 7.5rem auto 0 auto;
 }
+.support-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
 .support h2 {
 	line-height: 2.5rem;
 	max-width: 1000px;
-	margin: 0 auto;
+	margin: 0 auto 6rem auto;
 	text-align: center;
 }
+.support-wrapper > div {
+	max-width: 15rem;
+	text-align: center;
+}
+.support-wrapper > div > div {
+	padding-bottom: 2rem;
+	color: #263238;
+}
+.support-wrapper span {
+	font-size: 1.75rem;
+	color: #1a56a3;
+	font-weight: bold;
+}
+/* ===================current news=================== */
+
 /* ============================================== */
 @media (min-width: 200px) and (max-width: 600px) {
     /* Свойства применяются в пределах от меньшего к большему. */
