@@ -352,6 +352,43 @@ footer {
 	max-width: 1400px;
 	margin: 5rem auto 0;
 }
+
+.footer-wrapper h4 {
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.footer-wrapper li {
+	font-size: 0.8rem;
+}
+
+.community a {
+    display: block;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color:#ffffff;
+    width: 3rem;
+    height: 3rem;
+    transition: 0.3s;
+}
+#facebook, #twitter, #instagram{
+    fill: #2376cf;
+    transition: 0.3s;
+}
+.facebook:hover, .twitter:hover, .instagram:hover {
+    transform: scale(1.05);
+}
+.facebook:hover > #facebook{
+    fill: #ffffff;
+}
+.twitter:hover > #twitter{
+    fill: #ffffff;
+}
+.instagram:hover > #instagram{
+    fill: #ffffff;
+}
 /* ============================================= */
 @media (min-width: 200px) and (max-width: 600px) {
     /* Свойства применяются в пределах от меньшего к большему. */
