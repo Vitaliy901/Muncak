@@ -292,6 +292,61 @@ main {
 	box-shadow: 0 1.1rem 1rem 0.6rem#c0d3b88c;
 	margin-bottom: 10rem;
 }
+/* ================form========================== */
+.form-wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
+	background-image: url(../img/Muncak\ Landing\ Page_Shape\ footer.png), url(../img/Muncak\ Landing\ circle\ footer\ blue.png);
+	background-repeat: no-repeat;
+	background-position: left -35% top 15%, right -12% top -20%;
+	background-color: #3071c0;
+	border-radius: 1rem;
+	box-shadow: 0 1.1rem 1rem 0.6rem#2a6bbb7a;
+}
+.form-wrapper legend {
+	font-weight: 600;
+	font-size: 1.75rem;
+	line-height: 2.25rem;
+	color: white;
+	text-align: center;
+	padding: 4rem 0 3.5rem 0;
+}
+.form-wrapper fieldset > input:nth-child(2){
+	margin-bottom: 2rem;
+}
+.form-wrapper input {
+	display: block;
+	width: 100%;
+	max-width: 600px;
+	border-radius: 1rem;
+	border: none;
+	padding: 1rem 1.25rem;
+	font-size: 1.25rem;
+}
+.form-wrapper fieldset {
+	max-width: 920px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form-wrapper  button{
+	display: inline-block;
+	padding: 1.5rem 3.75rem;
+	background-color: #00aeff;
+	border-radius: 1rem;
+	color: #fbfcfc;
+	font-weight: 600;
+	box-shadow: 0rem 2rem 1rem #2a6cbb;
+	transform: scale(1);
+	transition: 0.4s;
+	border: none;
+	margin: 3.5rem 0 5rem 0;
+}
+.form-wrapper button:active {
+	transform: scale(0.9);
+	box-shadow: 0rem 1.1rem 0.6rem #34393d;
+}
 /* ============================================= */
 @media (min-width: 200px) and (max-width: 600px) {
     /* Свойства применяются в пределах от меньшего к большему. */
