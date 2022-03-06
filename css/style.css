@@ -347,6 +347,11 @@ main {
 	transform: scale(0.9);
 	box-shadow: 0rem 1.1rem 0.6rem #34393d;
 }
+/* =====================footer==================== */
+footer {
+	max-width: 1400px;
+	margin: 5rem auto 0;
+}
 /* ============================================= */
 @media (min-width: 200px) and (max-width: 600px) {
     /* Свойства применяются в пределах от меньшего к большему. */
