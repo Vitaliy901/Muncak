@@ -2,6 +2,15 @@ html    {
     font-size: 20px;
 	font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
 }
+body {
+	background-image: url(../img/Muncak\ circle\ blue.png),  url(../img/Muncak\ Landing\ circle\ pinkLittle.png), 
+	url(../img/Muncak\ Landing\ spotBigR.png), url(../img/Muncak\ Landing\ spotLeft.png),url(../img/Muncak\ Landing\ circle\ pinkR.png),
+	url(../img/Muncak\ Landing\ big\ circle\ bottom.png), url(../img/Muncak\ Landing\ circle\ big\ blue\ footer.png), url(../img/Muncak\ circle\ blue.png);
+	background-repeat: no-repeat;
+	background-position: right -2% top 15%, 48% 29.5%, right -45% bottom 65%, bottom 65% right -45%, 
+	left 10%  bottom 50%, bottom -30% right 360%, bottom -32% left 50%, right -2% top 22%;
+	background-color: #fbfcfc;
+}
 h2 {
 	font-size: 1.80rem;
 	color: #263238;
@@ -114,13 +123,6 @@ header {
 	box-shadow: 0rem 1.1rem 0.6rem #8e9aa7;
 }
 /* ======================hiking trail================= */
-main {
-	background-image: url(../img/Muncak\ circle\ blue.png),  url(../img/Muncak\ Landing\ circle\ pinkLittle.png), 
-	url(../img/Muncak\ Landing\ spotBigR.png), url(../img/Muncak\ Landing\ spotLeft.png),url(../img/Muncak\ Landing\ circle\ pinkR.png);
-	background-repeat: no-repeat;
-	background-position: right -2% top 15%, 48% 34%, right -45% bottom 10%, 145% -120%, left 10%  bottom 15%;
-	background-color: #fbfcfc;
-}
 .hiking-trail {
 	max-width: 1172px;
 	margin: 0 auto;
@@ -352,16 +354,28 @@ footer {
 	max-width: 1400px;
 	margin: 5rem auto 0;
 }
-
+.footer-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.footer-wrapper address > p:first-child {
+	margin-bottom: 2rem;
+}
 .footer-wrapper h4 {
 	font-size: 0.9rem;
 	text-transform: uppercase;
 	font-weight: 500;
+	margin-bottom: 4rem;
 }
 .footer-wrapper li {
 	font-size: 0.8rem;
+	margin-bottom: 1.5rem;
 }
-
+.community {
+	margin: 4rem 0 5rem;
+	display: flex;
+	gap: 0.5rem;
+}
 .community a {
     display: block;
     padding: 0.5rem;
@@ -379,6 +393,7 @@ footer {
 }
 .facebook:hover, .twitter:hover, .instagram:hover {
     transform: scale(1.05);
+	background-color:#2376cf;
 }
 .facebook:hover > #facebook{
     fill: #ffffff;
