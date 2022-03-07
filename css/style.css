@@ -5,10 +5,11 @@ html    {
 body {
 	background-image: url(../img/Muncak\ circle\ blue.png),  url(../img/Muncak\ Landing\ circle\ pinkLittle.png), 
 	url(../img/Muncak\ Landing\ spotBigR.png), url(../img/Muncak\ Landing\ spotLeft.png),url(../img/Muncak\ Landing\ circle\ pinkR.png),
-	url(../img/Muncak\ Landing\ big\ circle\ bottom.png), url(../img/Muncak\ Landing\ circle\ big\ blue\ footer.png), url(../img/Muncak\ circle\ blue.png);
+	url(../img/Muncak\ Landing\ big\ circle\ bottom.png), url(../img/Muncak\ Landing\ circle\ big\ blue\ footer.png), 
+	url(../img/Muncak\ circle\ blue.png),url(../img/Muncak\ Landing\ spotLBlueBottom.png), url(../img/Muncak\ Landing\ spotRbottom.png);
 	background-repeat: no-repeat;
-	background-position: right -2% top 15%, 48% 29.5%, right -45% bottom 65%, bottom 65% right -45%, 
-	left 10%  bottom 50%, bottom -30% right 360%, bottom -32% left 50%, right -2% top 22%;
+	background-position: right -2% top 15%, 48% 29.5%, right -45% bottom 65%, left 150% bottom -20%, 
+	left 10%  bottom 50%, bottom -30% right 360%, bottom -32% left 50%, right -2% top 22%, left -54%  bottom 34%, right -8% bottom 37%;
 	background-color: #fbfcfc;
 }
 h2 {
@@ -123,6 +124,35 @@ header {
 	box-shadow: 0rem 1.1rem 0.6rem #8e9aa7;
 }
 /* ======================hiking trail================= */
+main {
+	position: relative;
+}
+main::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	max-width: 5rem;
+	max-height: 5rem;
+	background-image: url(../img/Muncak\ circle\ blue.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	bottom: 28.2%;
+	right: 17%;
+}
+main::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	max-width: 5rem;
+	max-height: 5rem;
+	background-image: url(../img/Muncak\ Landing\ circle\ pink.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	bottom: 4%;
+	right: 11%;
+}
 .hiking-trail {
 	max-width: 1172px;
 	margin: 0 auto;
@@ -294,6 +324,7 @@ header {
 	box-shadow: 0 1.1rem 1rem 0.6rem#c0d3b88c;
 	margin-bottom: 10rem;
 }
+
 /* ================form========================== */
 .form-wrapper {
 	max-width: 1400px;
