@@ -358,6 +358,13 @@ footer {
 	display: flex;
 	justify-content: space-between;
 }
+.footer-wrapper p, .footer-wrapper h4, .footer-wrapper a{
+	color: white;
+	transition: 1s;
+}
+.footer-wrapper a:hover {
+	color: #828f96;
+}
 .footer-wrapper address > p:first-child {
 	margin-bottom: 2rem;
 }
@@ -376,6 +383,16 @@ footer {
 	display: flex;
 	gap: 0.5rem;
 }
+.community-wrapper {
+	display: flex;
+}
+.community-wrapper span{
+	color: rgb(26, 26, 26);
+	align-self: center;
+	width: 100%;
+	text-align: center;
+	font-size: 0.75rem;
+}
 .community a {
     display: block;
     padding: 0.5rem;
@@ -383,6 +400,7 @@ footer {
     cursor: pointer;
     border-radius: 50%;
     background-color:#ffffff;
+	
     width: 3rem;
     height: 3rem;
     transition: 0.3s;
