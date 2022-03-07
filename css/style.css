@@ -459,11 +459,11 @@ footer {
 footer > button {
 	position: absolute;
 	right: 10rem;
-	bottom: 2rem;
+	bottom: 5rem;
 	width: 3rem;
     height: 3rem;
-	transition-property: border background-color transform;
-    transition-duration:  0.3s, 0.3s, 1s;
+	transition-property: border, background-color, transform;
+    transition-duration:  0.3s, 0.3s, 2s;
 	border-radius: 50%;
 	border: 1px solid white;
 	background-image: url(../img/icon/up-arrow-svgrepo-com.svg);
@@ -477,7 +477,7 @@ footer > button:hover {
 	background-color: #00aeff;
 }
 footer ._active-element {
-	transform: translate(0, -28rem);
+	transform: translate(0, -25rem);
 }
 /* ============================================= */
 @media (min-width: 200px) and (max-width: 600px) {
