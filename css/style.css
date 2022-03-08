@@ -251,7 +251,8 @@ main::after {
 /* ===================== support ==================== */
 .support {
 	max-width: 1172px;
-	margin: 7.5rem  auto;
+	margin: 0 auto;
+	padding: 7.5rem  0;
 }
 .support-wrapper {
 	display: flex;
