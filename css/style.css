@@ -540,6 +540,9 @@ footer ._active-element {
 	}
 }
 @media (max-width: 768px) {
+	html {
+		font-size: 18px;
+	}
 	.header-middle {
 		padding: 0 0.5rem;
 	}
@@ -548,8 +551,8 @@ footer ._active-element {
 		justify-content: center;
 	}
 	.form-wrapper input{
-		width: inherit;
-		max-width: inherit;
+		width: 200px;
+		padding: 0.7rem 1rem;
 	}
 	.support .support-wrapper {
 		flex-wrap: wrap;
@@ -564,6 +567,9 @@ footer ._active-element {
 		flex-wrap: wrap;
 		justify-content: center;
 		padding-bottom: 1rem;
+	}
+	.news-wrapper {
+		justify-content: center;
 	}
 }
 @media (orientation: portrait) {
