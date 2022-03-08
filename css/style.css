@@ -540,16 +540,20 @@ footer ._active-element {
 	}
 }
 @media (max-width: 768px) {
+	.header-middle {
+		padding: 0 0.5rem;
+	}
 	.header-nav > ul{
 		flex-wrap: wrap;
 		justify-content: center;
 	}
-	.form-wrapper fieldset {
-		padding: 0 1rem;
-	}
 	.form-wrapper input{
 		width: inherit;
 		max-width: inherit;
+	}
+	.support-wrapper {
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.footer-wrapper {
 		flex-wrap: wrap;
