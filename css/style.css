@@ -551,7 +551,7 @@ footer ._active-element {
 		width: inherit;
 		max-width: inherit;
 	}
-	.support-wrapper {
+	.support .support-wrapper {
 		flex-wrap: wrap;
 		justify-content: center;
 	}
