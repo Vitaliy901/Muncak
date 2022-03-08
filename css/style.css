@@ -1,14 +1,16 @@
+@import url('media.css');
+
 html    {
     font-size: 20px;
 	font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
 }
 body {
-	background-image: url(../img/Muncak\ circle\ blue.png),  url(../img/Muncak\ Landing\ circle\ pinkLittle.png), 
+	background-image: url(../img/Muncak\ Landing\ circle\ pinkLittle.png), 
 	url(../img/Muncak\ Landing\ spotBigR.png), url(../img/Muncak\ Landing\ spotLeft.png),url(../img/Muncak\ Landing\ circle\ pinkR.png),
 	url(../img/Muncak\ Landing\ big\ circle\ bottom.png), url(../img/Muncak\ Landing\ big\ circle\ bottom.png), 
 	url(../img/Muncak\ Landing\ circle\ big\ blue\ footer.png), url(../img/Muncak\ circle\ blue.png),url(../img/Muncak\ Landing\ spotLBlueBottom.png), url(../img/Muncak\ Landing\ spotRbottom.png);
 	background-repeat: no-repeat;
-	background-position: right -2% top 15%, 48% 29.5%, right -45% bottom 65%, right -45% bottom 65% , 
+	background-position: 48% 29.5%, right -45% bottom 65%, right -45% bottom 65% , 
 	left 10%  bottom 50%, bottom -30% right 360%, left 225% bottom -15%,bottom -32% left 50%, right -2% top 22%, left -54%  bottom 34%, right -8% bottom 37%;
 	background-color: #fbfcfc;
 }
@@ -42,9 +44,9 @@ a:visited {
 /* ======================header==================== */
 header {
 	background-image: url(../img/Muncak\ Landing\ circle\ pink.png), url(../img/Muncak\ circle\ blue.png),
-	url(../img/Muncak\ Landing\ Page_ILLUSTRATION.png), url(../img/Muncak\ Landing\ Page_Shape\ 24.png),url(../img/Muncak\ Landing\ circle\ pinkR.png);
+	url(../img/Muncak\ Landing\ Page_ILLUSTRATION.png),url(../img/Muncak\ Landing\ circle\ pinkR.png);
 	background-repeat: no-repeat;
-	background-position: bottom 15% right 5%, left 44% top 52%, right  top, left -13% bottom, left 1% top 40%;
+	background-position: bottom 15% right 5%, left 44% top 52%, right  top, left 1% top 40%;
 	padding-bottom: 20rem;
 	background-color: #fbfcfc;
 }
@@ -482,11 +484,84 @@ footer ._active-element {
 	transform: translate(0, -25rem);
 	opacity: 1;
 }
-/* ============================================= */
-@media (min-width: 200px) and (max-width: 600px) {
-    /* Свойства применяются в пределах от меньшего к большему. */
+/* ======================media======================= */
+@media (min-width: 1400px) {
+    header {
+	background-image: url(../img/Muncak\ Landing\ circle\ pink.png), url(../img/Muncak\ circle\ blue.png),
+	url(../img/Muncak\ Landing\ Page_ILLUSTRATION.png), url(../img/Muncak\ Landing\ Page_Shape\ 24.png),url(../img/Muncak\ Landing\ circle\ pinkR.png);
+	background-position: bottom 15% right 5%, left 44% top 52%, right  top, left -13% bottom, left 1% top 40%;
+	}
 }
-
+@media (max-width: 1400px) {
+	footer{
+		padding: 5rem 1rem 0;
+	}
+	.news-wrapper {
+		flex-wrap: wrap;
+		justify-content: space-around;
+		gap: 1rem;
+	}
+	.support {
+		padding: 7.5rem 1rem;
+	}
+}
+@media (max-width: 1200px) {
+	body {
+		background-image: url(../img/Muncak\ Landing\ circle\ pinkLittle.png), 
+		url(../img/Muncak\ Landing\ spotBigR.png), url(../img/Muncak\ Landing\ spotLeft.png),url(../img/Muncak\ Landing\ circle\ pinkR.png),
+		url(../img/Muncak\ Landing\ big\ circle\ bottom.png), url(../img/Muncak\ Landing\ big\ circle\ bottom.png), 
+		url(../img/Muncak\ Landing\ circle\ big\ blue\ footer.png), url(../img/Muncak\ circle\ blue.png),url(../img/Muncak\ Landing\ spotLBlueBottom.png), url(../img/Muncak\ Landing\ spotRbottom.png);
+		background-position: 48% 29.5%, right 110% bottom 68%, right -45% bottom 65% , 
+		left 10%  bottom 50%, bottom -30% right 360%, left 225% bottom -15%,bottom -7% left 50%, right -2% top 22%, left -54%  bottom 34%, right -8% bottom 37%;
+	}
+	.header-top {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1rem;
+	}
+	a:visited {
+		color: white;
+	}
+	.header-middle {
+		padding: 0;
+		margin: 0 auto;
+	}
+	.header-middle p {
+		color: white;
+	}
+	.hiking-wrapper > section:nth-child(2)::before  {
+		top: -7rem;
+	}
+	.hiking-footer > section::before  {
+		top: -7rem;
+	}
+	.hiking-footer {
+		display: block;
+	}
+}
+@media (max-width: 768px) {
+	.header-nav > ul{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.form-wrapper fieldset {
+		padding: 0 1rem;
+	}
+	.form-wrapper input{
+		width: inherit;
+		max-width: inherit;
+	}
+	.footer-wrapper {
+		flex-wrap: wrap;
+		gap: 1rem;
+		justify-content: center;
+	}
+	.community-wrapper {
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-bottom: 1rem;
+	}
+}
 @media (orientation: portrait) {
     /* Если высота экрана больше ширины, свойство применяется */
 }
