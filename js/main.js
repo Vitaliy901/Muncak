@@ -1,4 +1,5 @@
 let toTop = document.querySelector('#toTop')
+let body = document.querySelector('body')
 let footer = document.querySelector('footer')
 let header = document.querySelector('header')
 let nums = document.querySelectorAll('.count')
@@ -14,7 +15,7 @@ window.addEventListener('scroll', function (e) {
 	 }
 })
 toTop.addEventListener('click', function (e) {
-	header.scrollIntoView({block: 'start', behavior: 'smooth'})
+	scroll({top: 0, behavior: 'smooth'})
 })
 
 // =========move background
@@ -24,7 +25,11 @@ window.addEventListener('mousemove', function (e) {
 	left ${e.clientX / speed / 100 + 44}% top ${e.clientY / speed / 100 + 52}%, right  top, 
 	left -13% bottom, left ${e.clientX / speed / 100 + 1}% top ${e.clientY / speed / 100 + 40}%`;
 	
+	body.style.backgroundPosition = `right -2% top 15%, ${e.clientX / speed / 100 + 48}% ${e.clientY / speed / 100 + 29.5}%, right -45% bottom 65%, right -45% bottom 65% , 
+	left ${e.clientX / speed / 100 + 10}%  bottom ${e.clientY / speed / 100 + 50}%, bottom -30% right 360%, left 225% bottom -15%,bottom -32% left 50%, 
+	right ${e.clientX / speed / 100 + -2}% top ${e.clientY / speed / 100 + 22}%, left -54%  bottom 34%, right -8% bottom 37%`;
 })
+
 
 // ========count
 let arr = []

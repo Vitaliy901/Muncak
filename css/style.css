@@ -463,8 +463,8 @@ footer > button {
 	bottom: 5rem;
 	width: 3rem;
     height: 3rem;
-	transition-property: border, background-color, transform;
-    transition-duration:  0.3s, 0.3s, 2s;
+	transition-property: border, background-color, transform, opacity;
+    transition-duration:  0.3s, 0.3s, 2s, 2s;
 	border-radius: 50%;
 	border: 1px solid white;
 	background-image: url(../img/icon/up-arrow-svgrepo-com.svg);
@@ -472,6 +472,7 @@ footer > button {
 	background-size: 50%;
 	background-position: center;
 	transform: translate(0,0);
+	opacity: 0;
 }
 footer > button:hover {
 	border: 1px solid white;
@@ -479,6 +480,7 @@ footer > button:hover {
 }
 footer ._active-element {
 	transform: translate(0, -25rem);
+	opacity: 1;
 }
 /* ============================================= */
 @media (min-width: 200px) and (max-width: 600px) {
