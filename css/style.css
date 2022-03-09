@@ -519,12 +519,15 @@ footer ._active-element {
 		justify-content: center;
 		gap: 1rem;
 	}
-	.header-top a.logo:visited {
+	a.logo {
 		color: white;
 	}
 	.header-middle {
 		padding: 0;
 		margin: 0 auto;
+	}
+	.header-middle h1 {
+		color: white;
 	}
 	.header-middle p {
 		color: white;
