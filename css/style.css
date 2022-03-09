@@ -519,7 +519,7 @@ footer ._active-element {
 		justify-content: center;
 		gap: 1rem;
 	}
-	a:visited {
+	a.logo:visited {
 		color: white;
 	}
 	.header-middle {
