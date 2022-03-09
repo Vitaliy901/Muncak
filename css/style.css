@@ -489,7 +489,7 @@ footer ._active-element {
     header {
 	background-image: url(../img/Muncak\ Landing\ circle\ pink.png), url(../img/Muncak\ circle\ blue.png),
 	url(../img/Muncak\ Landing\ Page_ILLUSTRATION.png), url(../img/Muncak\ Landing\ Page_Shape\ 24.png),url(../img/Muncak\ Landing\ circle\ pinkR.png);
-	background-position: bottom 15% right 5%, left 44% top 52%, right  top, left -13% bottom, left 1% top 40%;
+	background-position: bottom 15% right 5%, left 44% top 52%, right  top, left -15% bottom, left 1% top 40%;
 	}
 }
 @media (max-width: 1400px) {

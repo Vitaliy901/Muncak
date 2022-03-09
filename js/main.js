@@ -27,7 +27,7 @@ window.addEventListener('mousemove', function (e) {
 	if (header.offsetWidth > 1400) {
 		header.style.backgroundPosition = `bottom ${e.clientY / speed / 100 + 15}% right ${e.clientX / speed / 100 + 5}%, 
 		left ${e.clientX / speed / 100 + 44}% top ${e.clientY / speed / 100 + 52}%, right  top, 
-		left -13% bottom, left ${e.clientX / speed / 100 + 1}% top ${e.clientY / speed / 100 + 40}%`;
+		left -15% bottom, left ${e.clientX / speed / 100 + 1}% top ${e.clientY / speed / 100 + 40}%`;
 	} else {
 		header.style.backgroundPosition = `bottom ${e.clientY / speed / 100 + 15}% right ${e.clientX / speed / 100 + 5}%, 
 		left ${e.clientX / speed / 100 + 44}% top ${e.clientY / speed / 100 + 52}%, right  top,left ${e.clientX / speed / 100 + 1}% top ${e.clientY / speed / 100 + 40}%`;
